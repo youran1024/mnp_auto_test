@@ -1,5 +1,10 @@
+
 # CTS 自动测试命令行工具（iOS && Android）
-> [在线文档地址](http://wiki.baidou.com/pages/viewpage.action?pageId=1092795201)
+> 关于小程序的命令行工具， 仅供参考学习
+1. 提供命令行打包脚本
+2. 提供命令行调用
+3. 提供iOS调起
+
 
 ### 主要功能
 1. 支持任意位置调起`cts`、`cts --help`获取所有能力
@@ -94,8 +99,6 @@
 ### 注意事项
 * 无证书的话可以使用个人证书`修改位置 ~/cts-runner/webdriveragent/`
 * [个人证书修改参考](https://testerhome.com/topics/7220)
-* 如果服务运行成功，但是手百无法开启， 请尝试升级 `bat-agent`
-* 升级`bat-agent` ~ `npm --registry http://registry.npm.baidou-int.com install -g bat-agent`
 * 切换分支的话，需要注意把本地修改保存后切换
 * 如果搜索框无法输入，请检查键盘是否为系统键盘， 不支持三方键盘
 * 如果无响应，请检查开源工具设置是否正确， `cts -q`打开开源工具二维码，使用手百扫码
@@ -105,3 +108,5 @@
 
 ### 意见&Bug反馈 ^_^
 如有意见欢迎反馈给`YouRan@baidou.com`
+
+
