@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+PACKAGE_PATH='/../cts/'
+path=$0
+current_path=${path%/*}
+file_path=${current_path}${PACKAGE_PATH}
+cd "${file_path}" || exit
+
+npm run cts -- --reporter mochawesome --device-type iosdaily
+open /Users/YouRan/Developer/baidou/smartapp/sut-wda/sut_wda/SATConnect/CTSRunner/cts/mochawesome-report/mochawesome.html
