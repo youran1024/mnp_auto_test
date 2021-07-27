@@ -6,7 +6,7 @@
 3. 提供iOS调起
 4. 手机操控
 
-[sdf](https://raw.githubusercontent.com/youran1024/mnp_auto_test/master/Resource/cts%E8%AF%B4%E6%98%8E.jpg)
+![sdf](https://raw.githubusercontent.com/youran1024/mnp_auto_test/master/Resource/cts%E8%AF%B4%E6%98%8E.jpg)
 
 ### 主要功能
 1. 支持任意位置调起`cts`、`cts --help`获取所有能力
